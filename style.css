@@ -20,12 +20,6 @@ body {
   background: #334874;
 }
 
-h1 {
-  position: fixed;
-  top: 10%;
-  color: #23f123;
-}
-
 .calculator {
   position: relative;
   display: -ms-grid;
