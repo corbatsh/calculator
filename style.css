@@ -24,10 +24,12 @@ body {
   position: relative;
   display: -ms-grid;
   display: grid;
+  grid-gap: 0;
 }
 
 .calculator .value {
   grid-column: span 4;
+  grid-gap: 0;
   height: 100px;
   text-align: right;
   border: none;
@@ -39,6 +41,7 @@ body {
 .calculator .number {
   display: -ms-grid;
   display: grid;
+  grid-gap: 0;
   width: 60px;
   height: 60px;
   color: #fff;
